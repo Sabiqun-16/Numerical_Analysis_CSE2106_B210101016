@@ -1,4 +1,2 @@
-Course Title:Numerical Analysis sessional
-
-
-Course Code:2106
+# Course Title:Numerical Analysis sessional
+# Course Code:2106
