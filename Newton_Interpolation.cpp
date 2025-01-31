@@ -16,7 +16,7 @@ double interpolation(vector<vector<double>> &a,double p,int n){
     term2 = term1 / fact(i);
     ans+= term2*a[i][0];
    }
-   return result;
+   return ans;
 }
 
 int main ()
@@ -28,18 +28,16 @@ int main ()
     cout << "\nEnter the first number of X : ";
     double x;
     cin >> x;
-    cout << endl;
 
     cout << "\nEnter the finding number of X : ";
     double x1;
     cin >> x1;
-    cout << endl;
 
     cout << "\nEnter the difference - ";
     double diff;
     cin >> diff;
     cout << endl;
-
+    
     vector<vector<double>> a(n,vector<double>(n));
 
     for(int i  = 0; i < 1; i++) {
